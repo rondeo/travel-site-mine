@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "dependencies": {
     "jquery": "^3.4.1",
-    "latest": "^0.2.0",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
