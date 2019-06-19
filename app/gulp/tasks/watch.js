@@ -19,7 +19,7 @@ eye = () => {
       }
    });
    // watch('./app/assets/**/*.css', gulp.series(css, cssInject));
-   watch('./app/index.html', html);
+   watch('./**/*.html', html);
 };
 
 gulp.task('default', eye);
