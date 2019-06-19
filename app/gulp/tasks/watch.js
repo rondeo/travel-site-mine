@@ -14,12 +14,12 @@ eye = () => {
 };
 
 
-cssInject = () => {
+const cssInject = () => {
    return gulp.src('./app/temp/styles/styles.css')
               .pipe(browserSync.stream());
 };
 
-html = () => {
+const html = () => {
    browserSync.reload();
 };
 
