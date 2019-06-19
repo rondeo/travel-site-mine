@@ -6,7 +6,7 @@ const gulp = require('gulp'),
       cssImport = require('postcss-import'),
       mixins = require('postcss-mixins');
 
-css  = () => {  
+const css  = () => {  
    return gulp.src('./app/assets/styles/styles.css')
               .pipe(postcss([cssImport, mixins, autoprefixer, nested, vars]))
               .pipe(gulp.dest('./app/temp/styles/')); 
